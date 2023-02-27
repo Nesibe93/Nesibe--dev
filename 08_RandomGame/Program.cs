@@ -9,7 +9,7 @@
 
         Console.WriteLine("1 ile 200 arasında bir sayı tahmin ediniz..");
 
-        while (tahmin != rastgeleSayi && tahminSayisi < 201)
+        while (tahmin != rastgeleSayi && tahminSayisi < 10)
         {
             Console.Write("Tahmininizi girin: ");
             tahmin = Convert.ToInt32(Console.ReadLine());
